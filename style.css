@@ -1,0 +1,98 @@
+
+.container {
+    display:grid;
+    gap: 30px;
+    grid-template-areas:
+    "header"
+    "main"
+    "middle"
+    "footer";
+}
+
+
+.header {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 50px;
+    background-color: rgba(9, 203, 58, 0.427);
+    color: white;
+    text-align: center;
+}
+
+
+.has-border {
+    border-radius:25px;
+    border: 2px dashed rgb(35, 109, 35);
+    background: none;
+    padding: 20px;
+}
+
+
+nav {
+    display: flex-center;
+    
+    ;
+} 
+
+
+
+main {
+    background-image: url("plant.jpg");
+    background-color: beige;
+}
+
+button {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(9, 203, 58, 0.427);
+    color: white;
+    text-align: left;
+}
+
+
+
+
+ /* mobile device */
+/* @media (max-size: 600px) {
+    display:grid;
+    gap: 30px;
+    grid-template-areas:
+    "header"
+    "main"
+    "middle"
+    "footer";
+} */
+
+
+ /* medium device */
+/* @media (min-size: 762px) {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+    "header" "header"
+    "main main"
+    "left" "middle" "right"
+    "footer" "footer";
+}  */
+
+/* large device */
+/* @media (min-size: 992) {
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+    "header" "header" header"
+    "main" "main" "main"
+    "left" "middle" "right"
+    "footer" "footer" "footer";
+}   */
