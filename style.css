@@ -31,15 +31,12 @@
 
 nav {
     display: flex-center;
-    
-    ;
 } 
 
 
 
 main {
-    background-image: url("plant.jpg");
-    background-color: beige;
+    
 }
 
 button {
@@ -64,35 +61,44 @@ button {
 
 
  /* mobile device */
-/* @media (max-size: 600px) {
-    display:grid;
-    gap: 30px;
-    grid-template-areas:
-    "header"
-    "main"
-    "middle"
-    "footer";
-} */
+ /* @media (min-size: 600px) {
+     .container { 
+        display:grid;
+         gap: 30px;
+         grid-template-areas:
+         "header"
+         "main"
+         "middle"
+         "footer";
+     }
+}   */
+
 
 
  /* medium device */
-/* @media (min-size: 762px) {
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-    "header" "header"
-    "main main"
-    "left" "middle" "right"
-    "footer" "footer";
-}  */
+ @media (min-size: 762px) {
+     .container {
+
+         display: grid;
+         gap: 30px;
+         grid-template-areas:
+         "header header header"
+         "main main main"
+         "left middle right"
+         "footer footer footer";
+     }
+} 
 
 /* large device */
-/* @media (min-size: 992) {
-    display: grid;
-    gap: 30px;
-    grid-template-areas:
-    "header" "header" header"
-    "main" "main" "main"
-    "left" "middle" "right"
-    "footer" "footer" "footer";
-}   */
+ @media (min-size: 992px) {
+     .container {
+
+         display: grid;
+         gap: 30px;
+         grid-template-areas:
+         "header header header"
+         "main main main"
+         "left middle right"
+         "footer footer footer";
+     }
+}    
