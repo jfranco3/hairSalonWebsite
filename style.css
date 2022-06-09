@@ -9,17 +9,15 @@
     "footer";
 }
 
-
 .header {
     left: 0;
     bottom: 0;
     width: 100%;
     padding: 30px;
-    background-color: rgba(9, 203, 58, 0.427);
+    background-color: rgb(9, 203, 58, 0.427);
     color: white;
     text-align: center;
 }
-
 
 .has-border {
     border-radius:25px;
@@ -28,34 +26,30 @@
     padding: 20px;
 }
 
-
 nav {
     display: flex-center;
 } 
 
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
 
 .main-pic {
     display: block;
     width: 50%;
     text-align: center;
     margin: 0 auto;
- 
 }
-
-
 
 .middle {
    margin: 0 auto;
   text-align: center; 
 }
 
-
 .middle > img {
     margin: 10px;
 }
-
-
-
 
 button {
     text-align: center;
@@ -63,22 +57,19 @@ button {
     color: rgb(32, 28, 28);
 }
 
-
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(9, 203, 58, 0.427);
+    background-color: rgb(9, 203, 58, 0.427);
     color: white;
     text-align: right;
 }
 
-
 .copyright {
     text-align: right;
 }
-
 
 
  /* mobile device */

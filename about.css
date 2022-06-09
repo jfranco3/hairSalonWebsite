@@ -1,0 +1,102 @@
+
+.container {
+    display:grid;
+    gap: 30px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "middle"
+    "footer";
+}
+
+.header {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(9, 203, 58, 0.427);
+    color: black;
+    text-align: center;
+}
+
+.has-border {
+    border-radius:25px;
+    border: 2px dashed rgb(13, 53, 13);
+    background: none;
+    padding: 20px;
+}
+
+nav {
+    display: flex-center;
+} 
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.main-pic {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border-style: solid;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    border-style: solid;
+    border-color: rgb(9, 203, 58, 0.427);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(9, 203, 58, 0.427);
+    color: white;
+    text-align: right;
+}
+
+.copyright {
+    text-align: right;
+}
+
+/* medium device */
+@media (min-size: 762px) {
+    .container {
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr;
+        display: grid;
+        gap: 30px;
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        ". middle ."
+        "footer footer footer";
+    }
+    body {
+        color: white;
+    }
+} 
+
+/* large device */
+@media (min-size: 992px) {
+    .container {
+        display: grid;
+        gap: 30px;
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        ". middle ."
+        "footer footer footer";
+    
+    }
+    body {
+        background-color: white;
+    }
+}    
