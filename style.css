@@ -23,7 +23,7 @@
 
 .has-border {
     border-radius:25px;
-    border: 2px dashed rgb(35, 109, 35);
+    border: 2px dashed rgb(13, 53, 13);
     background: none;
     padding: 20px;
 }
@@ -84,7 +84,7 @@ button {
          grid-template-areas:
          "header header header"
          "main main main"
-         "left middle right"
+         ". middle ."
          "footer footer footer";
      }
 } 
@@ -98,7 +98,7 @@ button {
          grid-template-areas:
          "header header header"
          "main main main"
-         "left middle right"
+         ". middle ."
          "footer footer footer";
      }
 }    
