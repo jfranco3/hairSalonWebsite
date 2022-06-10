@@ -27,6 +27,11 @@ nav {
 
 
 
+button :hover {
+    background-color: rgb(211, 223, 213);
+    color:black;
+}
+
 .footer {
     position: fixed;
     left: 0;
