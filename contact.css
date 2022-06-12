@@ -1,4 +1,6 @@
-
+body {
+    text-align: center;
+}
 .header {
     left: 0;
     bottom: 0;
@@ -24,7 +26,6 @@ nav {
     background-color: white;
     color: black;
 }
-
 
 .button:hover {
     background-color: rgb(6, 114, 24);
