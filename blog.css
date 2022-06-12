@@ -1,3 +1,13 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "why pic"
+    "people pic"
+    "find pic"
+    "footer"
+}
+
 .header {
     left: 0;
     bottom: 0;
@@ -24,17 +34,22 @@ nav {
     color: black;
 }
 
-table, td {
-    border: 2px solid black;
-    width: 80%;
-    height: 80%;
-    text-align: center;
-}
-
  h4 {
      border-style: 3px solid black;
      text-align: center;
  }
+
+ .row {
+    display:flex;
+ }
+
+.column {
+    flex: 50%;
+    float:left; 
+    width: 50%;
+    padding: 20px;
+    height: 200px;l
+}
 
 .footer {
     position: fixed;
@@ -49,3 +64,30 @@ table, td {
 .copyright {
     text-align: right;
 }
+
+
+/* tablet
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "why pic"
+        "people pic"
+        "find pic"
+        "footer"
+    }
+}
+
+Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "why pic"
+        "people pic"
+        "find pic"
+        "footer"
+    }
+} */
