@@ -15,16 +15,10 @@ grid-template-areas:
 "footer";
 }
 
-.grid-container > div {
+/* .grid-container > div {
     background-color: white;
     text-align: center;
-}
-
-body {
-    margin: 0;
-    padding: 0 0 30px;
-    text-align: center;
-}
+} */
 
 .header {
     left: 0;
@@ -34,6 +28,12 @@ body {
     background-color: rgb(9, 203, 58, 0.427);
     color: black;
     text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: larger;
+    border-style: solid;
 }
 
 .has-border {
@@ -50,6 +50,19 @@ nav {
 .nav a:hover {
     background-color: white;
     color: black;
+}
+
+.row {
+    display:flex;
+}
+
+.column {
+    display:flex;
+    flex: 50%;
+    width: 300%;
+    box-sizing: border-box;
+   padding: -5%;
+   border-style: solid;
 }
 
 .footer {
