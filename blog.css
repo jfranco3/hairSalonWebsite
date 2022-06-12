@@ -1,12 +1,15 @@
-body {
+/* body {
     display: grid;
     grid-template-areas: 
     "header"
-    "why pic"
-    "people pic"
-    "find pic"
+    "why"
+    "pic"
+    "people"
+    "pic"
+    "find" 
+    "pic"
     "footer"
-}
+} */
 
 .header {
     left: 0;
@@ -35,11 +38,11 @@ nav {
 }
 
  h4 {
-     border-style: 3px solid black;
+     border-style: solid;
      text-align: center;
  }
 
- h2 {
+ h2, p {
     text-align: center;
  }
 
@@ -49,16 +52,16 @@ nav {
  }
 
 .column {
+    display:flex;
     flex: 50%;
     float:left; 
     width: 50%;
-    padding: 20px;
     height: 200px;
     border-style: solid;
+    box-sizing: border-box;
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

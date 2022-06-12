@@ -26,14 +26,12 @@ nav {
 }
 
 
-
-button :hover {
-    background-color: rgb(211, 223, 213);
-    color:black;
+.button:hover {
+    background-color: rgb(6, 114, 24);
+    color:white;
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
