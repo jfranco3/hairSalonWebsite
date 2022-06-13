@@ -10,6 +10,7 @@
 }
 
 .header {
+    grid-area: header;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -26,40 +27,56 @@
     padding: 20px;
 }
 
-nav {
-    display: flex-center;
-} 
 
 .nav a:hover {
     background-color: white;
     color: black;
 }
 
-.main-pic {
-    display: block;
-    width: 40%;
+/* 
+.main {
+    display: flex;
+    width: 100%;
+    background-image: url(./images/plant.jpg);
     text-align: center;
     margin: 0 auto;
     border-style: solid;
+} */
+
+.main {
+    grid-area: main;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-style: solid;
+    width: 100%;
 }
 
+ 
 .middle {
+    display: flex;
+    flex-direction: column;
+    grid-area: middle;
    margin: 0 auto;
   text-align: center; 
 }
 
 .middle > img {
-    margin: 10px;
+    margin: 5px;
 }
 
 button {
     text-align: center;
     background-color: rgb(51, 176, 93);
     color: rgb(32, 28, 28);
-    font-size: 12px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 10%;
 }
 
 .footer {
+    grid-area: footer;
     /* position:fixed; */
     left: 0;
     bottom: 0;
@@ -74,38 +91,27 @@ button {
 }
 
 
- /* mobile device */
- /* @media (min-size: 600px) {
-     .container { 
-        display:grid;
-         gap: 30px;
-         grid-template-areas:
-         "header"
-         "main"
-         "middle"
-         "footer";
-     }
-}   */
-
-
-
  /* medium device */
- @media (min-size: 762px) {
+ @media (min-width: 762px) {
      .container {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
          display: grid;
-         gap: 30px;
+         gap:300px;
          grid-template-areas:
          "header header header"
          "main main main"
-         ". middle ."
+         "middle middle middle"
          "footer footer footer";
+     }
+     .middle {
+        display: flex;
+        flex-direction: row;
      }
 } 
 
 /* large device */
- @media (min-size: 992px) {
+ @media (min-width: 992px) {
      .container {
 
          display: grid;
@@ -113,7 +119,11 @@ button {
          grid-template-areas:
          "header header header"
          "main main main"
-         ". middle ."
+         "middle middle middle"
          "footer footer footer";
      }
-}    
+     .middle {
+        display: flex;
+        flex-direction: row;
+     }
+    }

@@ -43,7 +43,7 @@ nav {
     border-style: solid;
 }
 
-h1, h2, h3, p {
+ h2, h3, p {
     text-align: center;
 }
 
@@ -51,7 +51,12 @@ h1 {
     color: black;
     border-style: solid;
     border-color: rgb(9, 203, 58, 0.427);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5%;
 }
+
 .footer {
     /* position:fixed; */
     left: 0;
