@@ -25,7 +25,7 @@
     border-radius:25px;
     border: 2px dashed rgb(13, 53, 13);
     background: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -40,6 +40,10 @@ nav {
  h4 {
      border-style: solid;
      text-align: center;
+     width: 50%;
+     margin: 0 auto;
+     margin-bottom: 5%;
+     margin-top: 5%;
  }
 
  h2, p {

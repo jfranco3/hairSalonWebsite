@@ -14,9 +14,6 @@ grid-template-areas:
     margin: auto;
 }
 
-
-
-
 .header {
     left: 0;
     bottom: 0;
@@ -31,13 +28,18 @@ h1 {
     text-align: center;
     font-size: larger;
     border-style: solid;
+    border-style: solid;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .has-border {
     border-radius:25px;
     border: 2px dashed rgb(13, 53, 13);
     background: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -80,7 +82,7 @@ nav {
 
 
 
- @media (min-size: 576px) {
+ @media (min-width: 576px) {
             .grid-container {
                 display: grid;
                 gap: 30px;
@@ -91,7 +93,7 @@ nav {
 } 
 }
 
-@media (min-size: 992px) {
+@media (min-width: 992px) {
     .grid-container {
         display: grid;
         gap: 30px;
