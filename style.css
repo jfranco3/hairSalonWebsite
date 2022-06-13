@@ -36,29 +36,46 @@
     grid-area: main;
     background-image: url(plant.jpg);
     background-size: cover;
+    background-position: 50%;
     margin: 0 auto;
     border-style: solid;
     width: 100%;
+    text-align: center;
+}
+
+h3 {
+    border-style: solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    width:25%;
+    text-align: center;
+}
+
+span {
+    border-style: solid;
+    border-color: black;
+    color:aliceblue;
+    background-color: black;
 }
 
 .middle {
     display: flex;
     flex-direction: column;
     grid-area: middle;
-    text-align: center; 
     justify-content: center;
 }
 
-.middle > img {
+.middle > div {
     margin: 30px;
+    text-align: center;
 }
 
 button {
     text-align: center;
-    background-color: rgb(51, 176, 93);
-    color: rgb(32, 28, 28);
+    background-color: lightseagreen;
+    color: aliceblue;
     font-size: 10px;
-    padding: 5px;
+    padding: 10px;
     margin: 10%;
 }
 
@@ -80,10 +97,8 @@ button {
  /* medium device */
  @media (min-width: 762px) {
      .container {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
          display: grid;
-         gap:300px;
+         gap:30px;
          grid-template-areas:
          "header header header"
          "main main main"
@@ -99,7 +114,6 @@ button {
 /* large device */
  @media (min-width: 992px) {
      .container {
-
          display: grid;
          gap: 30px;
          grid-template-areas:
