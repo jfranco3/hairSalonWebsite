@@ -57,10 +57,22 @@ span {
     color:aliceblue;
     background-color: black;
 }
-
-a:link, a:visited {
+.button-more {
     background-color: rgb(27, 133, 84);
     color: black; 
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+nav a:link, a:visited {
     text-align: center;
     border-style: solid;
 }
@@ -75,15 +87,6 @@ a:link, a:visited {
 .middle > div {
     margin: 30px;
     text-align: center;
-}
-
-button {
-    text-align: center;
-    background-color: lightseagreen;
-    color: aliceblue;
-    font-size: 10px;
-    padding: 10px;
-    margin: 10%;
 }
 
 .footer {
