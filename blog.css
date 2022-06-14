@@ -37,6 +37,11 @@ nav {
     color: black;
 }
 
+.read-this {
+    text-align: center;
+    margin: 0 auto;
+}
+
  h4 {
      border-style: solid;
      text-align: center;
