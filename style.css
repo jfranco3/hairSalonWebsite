@@ -82,7 +82,7 @@ button {
 .footer {
     grid-area: footer;
     left: 0;
-    bottom: 0;cd
+    bottom: 0;
     width: 100%;
     background-color: rgba(124, 228, 150, 0.427);
     color: white;
