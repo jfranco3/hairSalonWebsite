@@ -27,19 +27,19 @@
     padding: 10px;
 }
 
-.nav a:hover {
+.has-border:hover {
     background-color: white;
     color: black;
-}
+} 
 
 .main {
     grid-area: main;
     background-image: url(plant.jpg);
     background-size: cover;
     background-position: 50%;
-    margin: 0 auto;
+    padding: 10%;
     border-style: solid;
-    width: 100%;
+    max-width: 100%;
     text-align: left;
 }
 
@@ -49,6 +49,7 @@ h3 {
     background-color: aliceblue;
     width:25%;
     padding: 1%;
+    margin-left: 50%;
 }
 
 span {
@@ -56,13 +57,15 @@ span {
     border-color: black;
     color:aliceblue;
     background-color: black;
+    margin-left: 50%;
 }
+
 .button-more {
     background-color: rgb(27, 133, 84);
     color: black; 
     text-align: center;
     font-size: 10px;
-    margin: 10px;
+    margin-left: 50%;
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
