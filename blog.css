@@ -70,6 +70,17 @@ nav {
     box-sizing: border-box;
 }
 
+.button-more {
+    background-color: rgb(27, 133, 84);
+    color: black; 
+    text-align: center;
+    font-size: 10px;
+    margin-left: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 .footer {
     left: 0;
     bottom: 0;
@@ -89,23 +100,23 @@ nav {
     .container {
         display: grid;
         grid-template-areas: 
-        "header"
+        "header header header"
         "why pic"
         "people pic"
         "find pic"
-        "footer"
+        "footer footer footer"
     }
 }
 
 Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {
+@media (min-width: 992px) {
     .container {
         display: grid;
         grid-template-areas: 
-        "header"
+        "header header header"
         "why pic"
         "people pic"
         "find pic"
-        "footer"
+        "footer footer footer"
     }
 } */
