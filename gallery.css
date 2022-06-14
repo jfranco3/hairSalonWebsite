@@ -9,9 +9,9 @@ grid-template-areas:
 ". pic9";
 }
 
-.grid-container > div {
-    padding: 20px;
-    margin: auto;
+.grid-container {
+    max-width: 100%;
+    margin-left: 10%;
 }
 
 .header {
@@ -53,15 +53,14 @@ nav {
 
 .row {
     display:flex;
+    max-width: 100%;
 }
 
 .column {
     display:flex;
     flex: 50%;
-    width: 100%;
     box-sizing: border-box;
    padding: -5%;
-   border-style: solid;
 }
 
 .footer {
@@ -76,9 +75,6 @@ nav {
 .copyright {
     text-align: right;
 }  
-
-
-
 
  @media (min-width: 576px) {
             .grid-container {

@@ -57,6 +57,12 @@ h1 {
     margin-bottom: 5%;
 }
 
+.words {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 .footer {
     left: 0;
     bottom: 0;
