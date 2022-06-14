@@ -1,0 +1,57 @@
+.header {
+    grid-area: header;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(124, 228, 150, 0.427);
+    color: black;
+    text-align: center;
+}
+
+.has-border {
+    border-radius:25px;
+    border: 2px solid rgb(13, 53, 13);
+    background: none;
+    padding: 10px;
+}
+
+.has-border:hover {
+    background-color: white;
+    color: black;
+} 
+
+h1 {
+    border-style: solid;
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.middle {
+    width: 30%;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+
+.footer {
+    grid-area: footer;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(124, 228, 150, 0.427);
+    color: white;
+    text-align: right;
+}
+
+.copyright {
+    text-align: right;
+}
