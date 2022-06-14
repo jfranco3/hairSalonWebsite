@@ -22,13 +22,14 @@
 
 .has-border {
     border-radius:25px;
-    border: 2px dashed rgb(13, 53, 13);
+    border: 2px solid rgb(13, 53, 13);
     background: none;
     padding: 10px;
 }
 
 nav {
     display: flex-center;
+    background-color: rgb(27, 133, 84);
 } 
 
 .nav a:hover {
@@ -70,7 +71,7 @@ h1 {
 }
 
  /* medium device 
-@media (min-size: 762px) {
+@media (min-width: 762px) {
     .container {
        grid-template-columns: 1fr 1fr 1fr;
        grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -88,7 +89,7 @@ h1 {
 } 
 
  large device 
-@media (min-size: 992px) {
+@media (min-width: 992px) {
     .container {
         display: grid;
         gap: 30px;

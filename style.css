@@ -56,7 +56,13 @@ span {
     border-color: black;
     color:aliceblue;
     background-color: black;
-   
+}
+
+a:link, a:visited {
+    background-color: rgb(27, 133, 84);
+    color: black; 
+    text-align: center;
+    border-style: solid;
 }
 
 .middle {

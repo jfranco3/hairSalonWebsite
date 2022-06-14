@@ -37,7 +37,7 @@ h1 {
 
 .has-border {
     border-radius:25px;
-    border: 2px dashed rgb(13, 53, 13);
+    border: 2px solid rgb(13, 53, 13);
     background: none;
     padding: 10px;
 }
