@@ -32,15 +32,33 @@ h1 {
     margin-top: 5%;
 }
 
+.row {
+    display:flex;
+    padding: 10px;
+}
+
+.column {
+    display: flex;
+    flex: 50%;
+    float: left;
+    width:50%;
+    height: 150px;
+    border-style: solid;
+    box-sizing:border-box;
+}
+
 .middle {
+    display: block;
     width: 30%;
     text-align: center;
     color: black;
-    margin: 0 auto;
     margin-bottom: 3%;
     margin-top: 5%;
 }
-
+ 
+.middle > p {
+    margin: 0 0 30%;
+}
 
 .footer {
     grid-area: footer;
