@@ -1,22 +1,23 @@
 .grid-container {
 display: grid;
 gap: 20px;
+grid-template-columns: 1fr 1fr;
 grid-template-areas: 
-"pic1"
-"pic2"
-"pic3"
-"pic4"
-"pic5"
-"pic6" 
-"pic7" 
-"pic8" 
-"pic9";
+"pic1 pic2"
+"pic3 pic4"
+"pic5 pic6"
+"pic7 pic8" 
+"pic9 .";
 }
 
 .grid-container {
-    max-width: 100%;
-    margin-left: 10%;
+    max-width:100%;
     margin-bottom: 5%;
+    text-align: center;
+}
+
+.grid-container > div > img {
+    max-width:100%;
 }
 
 .header {
@@ -55,18 +56,6 @@ nav {
     color: black;
 }
 
-.row {
-    display:flex;
-    max-width: 100%;
-}
-
-.column {
-    display:flex;
-    flex: 50%;
-    box-sizing: border-box;
-   /* padding: -5%; */
-}
-
 .footer {
     left: 0;
     bottom: 0;
@@ -82,17 +71,20 @@ nav {
 
  @media (min-width: 576px) {
             .grid-container {
+                grid-template-columns: 1fr 1fr 1fr;
                 display: grid;
                 gap: 30px;
                 grid-template-areas:
                 "pic1 pic2 pic3"
                 "pic4 pic5 pic6"
                 "pic7 pic8 pic9";
-} 
+                text-align:unset;
+    } 
 }
 
 @media (min-width: 992px) {
     .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
         display: grid;
         gap: 30px;
         grid-template-areas:
@@ -100,4 +92,4 @@ nav {
         "pic4 pic5 pic6"
         "pic7 pic8 pic9";
     }
-    } 
+} 

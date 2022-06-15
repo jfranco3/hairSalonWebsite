@@ -32,7 +32,7 @@ h1 {
     margin-top: 5%;
 }
 
-.row {
+/* .row {
     display:flex;
     padding: 10px;
 }
@@ -45,6 +45,13 @@ h1 {
     height: 150px;
     border-style: solid;
     box-sizing:border-box;
+} */
+
+.row {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "blogpic1 blogpic2";
 }
 
 .middle {

@@ -92,6 +92,14 @@ nav a:link, a:visited {
     text-align: center;
 }
 
+.middle > div > img {
+    opacity: .5;
+}
+
+.middle > div > img:hover {
+    opacity: 1.0;
+}
+
 .footer {
     grid-area: footer;
     left: 0;
