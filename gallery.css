@@ -16,12 +16,13 @@ grid-template-areas:
     text-align: center;
 }
 
-.grid-container > div > img {
+ img {
     max-width:100%;
     margin-top: 15px;
     width: 200px;
     height: 200px;
     border-style: solid;
+    border-color:black;
 }
 
 .header {
@@ -63,6 +64,14 @@ h2 {
     margin: 0 auto;
 }
 
+img {
+    opacity: .9;
+}
+
+img:hover {
+    opacity: 1.1;
+
+}
 .footer {
     left: 0;
     bottom: 0;
@@ -79,7 +88,6 @@ h2 {
 
  @media (min-width: 576px) {
             .grid-container {
-                grid-template-columns: 1fr 1fr 1fr;
                 display: grid;
                 gap: 30px;
                 grid-template-areas:
@@ -102,7 +110,6 @@ h2 {
 
 @media (min-width: 992px) {
     .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
         display: grid;
         gap: 20px;
         grid-template-areas:

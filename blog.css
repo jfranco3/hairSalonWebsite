@@ -3,22 +3,18 @@
     grid-template-columns: 1fr;
     grid-template-areas: 
     "header"
-    ""
-    ""
-    "" 
+    "propogate"
+    "propogate-text"
+    "tools"
+    "tool-text"
+    "community"
+    "community-text" 
     "footer";
+
+        max-width: 100%;
+        margin-bottom: 5%;
+        text-align: center;
 } 
-
-.blog-container {
-    max-width: 100%;
-    margin-bottom: 5%;
-    text-align: center;
-}
-
- img {
-    width: 200px;
-    height: 200px;
-}
 
 .header {
     left: 0;
@@ -46,18 +42,21 @@ nav {
     color: black;
 }
 
-h4 {
+img {
+    width: 360px;
+    height: 360px;
+}
+
+h2 {
     border-style: solid;
     background-color: black;
     color: white;
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-top: 5%;
 }
-
-
 
 .button-more {
     background-color: rgb(27, 133, 84);
@@ -68,6 +67,10 @@ h4 {
     border-radius: 10px;
     text-decoration: none;
     margin-bottom: 5%;
+}
+
+.propogate, .tools, .community {
+    border-style: solid;
 }
 
 .footer {
@@ -86,28 +89,35 @@ h4 {
 }
 
 
-/* medium devices
-@media (min-width: 768px) {
+/* /* medium devices */
+/* @media (min-width: 768px) {
     .container {
         display: grid;
         grid-template-areas: 
-        "header header header"
-        "why"
-        "country"
-        "people" 
-        "footer footer footer"
+        "header header"
+        "propogate propogate-text"
+        "tools tool-text"
+        "community community-text"
+        "footer footer";
     }
-} 
+    h2 {
+        width: 20%;
+        }
+
+    .propogate, .tools, .community {
+            border-style: none;
+        }
+}  */
 
 /* Large devices (laptops/desktops, 992px and up)  */
-/* @media (min-width: 992px) { 
+ @media (min-width: 992px) { 
     .container {
            display: grid;
         grid-template-areas: 
-        "header  header header"
-        "pic1 why"
-        "pic2 country"
-        "pic3 people"
+         "header header header"
+        "propogate propogate-text"
+        "tools tool-text"
+        "community community-text"
         "footer footer footer"
     }
-} */
+} 
