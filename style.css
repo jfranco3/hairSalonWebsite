@@ -84,12 +84,15 @@ nav a:link, a:visited {
 }
 
 .middle > div {
-    margin: 30px;
+    margin: 10px;
     text-align: center;
 }
 
 .middle > div > img {
-    opacity: .5;
+    width: 200px;
+    height: 200px;
+    opacity: .8;
+    border-style: solid;
 }
 
 .middle > div > img:hover {
@@ -102,12 +105,13 @@ nav a:link, a:visited {
     bottom: 0;
     width: 100%;
     background-color: rgba(124, 228, 150, 0.427);
-    color: white;
-    text-align: right;
+    color: black;
+    text-align: center;
+    font-size: small;
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
 }
 
   /* /* medium device  */
@@ -142,9 +146,6 @@ nav a:link, a:visited {
 
  }
 
-
-
-
  /* large device  */
  @media (min-width: 992px) {
      .container {
@@ -173,4 +174,3 @@ nav a:link, a:visited {
         text-align: center;
     }
  }
-    
