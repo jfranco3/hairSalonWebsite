@@ -15,16 +15,16 @@
     text-align: center;
 }
 
-.blog-container > div> img {
-    max-width:100%;
-    /* text-align: center; */
-
-
+ img {
+    width: 380px;
+    height: 200px;
 }
-.why, .people, .country {
+
+.row, .row2, .row3 {
     border-style: solid;
     border-color: black;
 }
+
 
 .header {
     left: 0;
@@ -67,6 +67,10 @@ h4 {
     text-align: center;
  }
 
+ p {
+    font-size: small;
+ }
+
 .button-more {
     background-color: rgb(27, 133, 84);
     color: black; 
@@ -75,6 +79,7 @@ h4 {
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
+    margin-bottom: 5%;
 }
 
 .footer {
@@ -93,18 +98,17 @@ h4 {
 
 
 /* /* medium devices */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .container {
         display: grid;
         grid-template-areas: 
         "header  header header"
-        "pic1 why words"
-        "pic2 country words"
-        "pic3 people words" 
+        "pic1 words"
+        "pic2 words2"
+        "pic3 words3" 
         "footer footer footer"
     }
-
-} 
+}  */
 
 /* Large devices (laptops/desktops, 992px and up)  */
 /* @media (min-width: 992px) { 
