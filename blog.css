@@ -1,15 +1,30 @@
-/* body {
-    display: grid;
+ .blog-container {
+    display: block;
+    grid-template-columns: 1fr;
     grid-template-areas: 
     "header"
     "why"
-    "pic"
-    "people"
-    "pic"
-    "find" 
-    "pic"
-    "footer"
-} */
+    "country"
+    "people" 
+    "footer";
+} 
+
+.blog-container {
+    max-width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.blog-container > div> img {
+    max-width:100%;
+    /* text-align: center; */
+
+
+}
+.why, .people, .country {
+    border-style: solid;
+    border-color: black;
+}
 
 .header {
     left: 0;
@@ -37,45 +52,26 @@ nav {
     color: black;
 }
 
-.read-this {
-    text-align: center;
-    margin: 0 auto;
-}
-
- h4 {
-     border-style: solid;
-     text-align: center;
-     width: 50%;
-     margin: 0 auto;
-     margin-bottom: 5%;
-     margin-top: 5%;
- }
-
- h2, p {
-    text-align: center;
- }
-
- .row {
-    display:flex;
-    padding: 10px;
- }
-
-.column {
-    display:flex;
-    flex: 50%;
-    float:left; 
-    width: 50%;
-    height: 200px;
+h4 {
     border-style: solid;
-    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
+
+ h3, p {
+    text-align: center;
+ }
 
 .button-more {
     background-color: rgb(27, 133, 84);
     color: black; 
     text-align: center;
     font-size: 10px;
-    margin-left: 50%;
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
@@ -87,36 +83,38 @@ nav {
     width: 100%;
     background-color: rgba(124, 228, 150, 0.427);
     color: white;
-    text-align: right;
+    text-align: center;
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
+    font-size: small;
 }
 
 
-/* tablet
+/* /* medium devices */
 @media (min-width: 768px) {
     .container {
         display: grid;
         grid-template-areas: 
-        "header header header"
-        "why pic"
-        "people pic"
-        "find pic"
+        "header  header header"
+        "pic1 why words"
+        "pic2 country words"
+        "pic3 people words" 
         "footer footer footer"
     }
-}
 
-Large devices (laptops/desktops, 992px and up) 
-@media (min-width: 992px) {
+} 
+
+/* Large devices (laptops/desktops, 992px and up)  */
+/* @media (min-width: 992px) { 
     .container {
-        display: grid;
+           display: grid;
         grid-template-areas: 
-        "header header header"
-        "why pic"
-        "people pic"
-        "find pic"
+        "header  header header"
+        "pic1 why"
+        "pic2 country"
+        "pic3 people"
         "footer footer footer"
     }
 } */

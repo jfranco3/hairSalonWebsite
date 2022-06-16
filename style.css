@@ -47,17 +47,14 @@ h3 {
     border-style: solid;
     border-color: aliceblue;
     background-color: aliceblue;
-    width:25%;
-    padding: 1%;
-    margin-left: 50%;
+    /* padding: 1%; */
+    /* margin-left: 50%; */
 }
 
 span {
-    border-style: solid;
-    border-color: black;
+    border-style: 5px solid black;
     color:aliceblue;
     background-color: black;
-    margin-left: 50%;
 }
 
 .button-more {
@@ -65,7 +62,6 @@ span {
     color: black; 
     text-align: center;
     font-size: 10px;
-    margin-left: 50%;
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
@@ -125,11 +121,29 @@ nav a:link, a:visited {
          "middle middle middle"
          "footer footer footer";
      }
+
+     h3 {
+        text-align: right;
+    
+     }
+
      .middle {
-        display: flex;
         flex-direction: row;
      }
-} 
+
+     .span {
+        border-style: 5px solid black;
+        color:aliceblue;
+        background-color: black;
+        margin-left: 70%;
+        text-align: center;
+
+    }
+
+ }
+
+
+
 
  /* large device  */
  @media (min-width: 992px) {
@@ -142,8 +156,21 @@ nav a:link, a:visited {
          "middle middle middle"
          "footer footer footer";
      }
+
+     .main {
+        text-align: right;
+     }
+
      .middle {
-        display: flex;
         flex-direction: row;
      }
-    } 
+
+     span {
+        border-style: 5px solid black;
+        color:aliceblue;
+        background-color: black;
+        margin-left: 70%;
+        text-align: center;
+    }
+ }
+    
