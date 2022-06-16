@@ -88,14 +88,14 @@ nav a:link, a:visited {
     text-align: center;
 }
 
-.middle > div > img {
-    width: 200px;
-    height: 200px;
+ img {
     opacity: .8;
     border-style: solid;
-}
+    border-color: black;
+    opacity: .8;
+} 
 
-.middle > div > img:hover {
+img:hover {
     opacity: 1.0;
 }
 
