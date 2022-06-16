@@ -38,23 +38,23 @@
     background-size: cover;
     background-position: 50%;
     padding: 10%;
-    border-style: solid;
-    max-width: 100%;
-    text-align: left;
 }
 
-h3 {
+h2 {
     border-style: solid;
     border-color: aliceblue;
     background-color: aliceblue;
-    /* padding: 1%; */
-    /* margin-left: 50%; */
+    width: 85%;
+    text-align: center;
+    padding: 5px;
 }
 
-span {
+.main-p {
     border-style: 5px solid black;
     color:aliceblue;
     background-color: black;
+    text-align: center;
+    padding: 5px;
 }
 
 .button-more {
@@ -126,25 +126,23 @@ img:hover {
          "footer footer footer";
      }
 
-     h3 {
-        text-align: right;
+     h2 { 
+        width:60%;
+        margin-left: 50%;
+     }
+
+     .main-p {
+        margin-left: 50%;
+    }
     
-     }
-
-     .middle {
-        flex-direction: row;
-     }
-
-     .span {
-        border-style: 5px solid black;
-        color:aliceblue;
-        background-color: black;
-        margin-left: 70%;
-        text-align: center;
-
+    .button-more {
+        margin-left: 50%;
     }
 
- }
+    .middle {
+        flex-direction: row;
+     }
+    }
 
  /* large device  */
  @media (min-width: 992px) {
@@ -158,19 +156,21 @@ img:hover {
          "footer footer footer";
      }
 
-     .main {
-        text-align: right;
+     h2 { 
+        width:37%;
+        margin-left: 50%;
      }
 
-     .middle {
+     .main-p {
+        margin-left: 50%;
+    }
+    
+    .button-more {
+        margin-left: 50%;
+    }
+
+    .middle {
         flex-direction: row;
      }
-
-     span {
-        border-style: 5px solid black;
-        color:aliceblue;
-        background-color: black;
-        margin-left: 70%;
-        text-align: center;
     }
- }
+ 
