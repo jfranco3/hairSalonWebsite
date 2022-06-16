@@ -45,11 +45,7 @@ nav {
     border-style: solid;
 }
 
- h2, h3 {
-    text-align: center;
-}
-
-h1 {
+h2 {
     border-style: solid;
     width: 50%;
     text-align: center;

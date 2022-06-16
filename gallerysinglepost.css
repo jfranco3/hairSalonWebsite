@@ -1,3 +1,13 @@
+.container {
+    display:grid;
+    gap: 30px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "middle"
+    "footer";
+}
+
 .header {
     grid-area: header;
     left: 0;
@@ -21,9 +31,9 @@
     color: black;
 } 
 
-h1 {
+h2 {
     border-style: solid;
-    width: 50%;
+    width: 70%;
     text-align: center;
     color: white;
     background-color: black;
@@ -32,19 +42,32 @@ h1 {
     margin-top: 5%;
 }
 
+.main {
+    grid-area: main;
+}
+
+.main-pic {
+ display: block;
+ text-align: center;
+ width: 75%;
+ margin: 0 auto;
+ border-style: solid;
+}
+
 .middle {
+    grid-area: middle;
     border-style: solid;
     width: 30%;
     text-align: center;
     color: white;
     background-color: black;
-    margin: 0 auto;
-    margin-bottom: 3%;
-    margin-top: 5%;
+    margin:auto;
 }
 
-.middle > p {
+ .middle-p {
     text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .footer {
@@ -53,10 +76,11 @@ h1 {
     bottom: 0;
     width: 100%;
     background-color: rgba(124, 228, 150, 0.427);
-    color: white;
-    text-align: right;
+    color: black;
+    text-align: center;
+    font-size: small;
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
 }
