@@ -3,9 +3,9 @@
     grid-template-columns: 1fr;
     grid-template-areas: 
     "header"
-    "why"
-    "country"
-    "people" 
+    ""
+    ""
+    "" 
     "footer";
 } 
 
@@ -16,15 +16,9 @@
 }
 
  img {
-    width: 379px;
+    width: 200px;
     height: 200px;
 }
-
-.country, .people, .why {
-    border-style: solid;
-    border-color: black;
-}
-
 
 .header {
     left: 0;
@@ -63,17 +57,7 @@ h4 {
     margin-top: 5%;
 }
 
-.pic, .pic2, .pic3{
-    border-style: solid;
-}
 
- h3, p {
-    text-align: center;
- }
-
- p {
-    font-size: small;
- }
 
 .button-more {
     background-color: rgb(27, 133, 84);
