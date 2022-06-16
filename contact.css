@@ -1,6 +1,7 @@
 body {
     text-align: center;
 }
+
 .header {
     left: 0;
     bottom: 0;
@@ -29,15 +30,48 @@ nav {
 
 h4 {
     border-style: solid;
+    background-color: black;
+    color: white;
     width: 50%;
     margin: 0 auto;
     margin-bottom: 5%;
     margin-top: 5%;
 }
 
-.button:hover {
-    background-color: rgb(6, 114, 24);
+#name {
+    text-align: center;
+    padding:10px;
+}
+
+#address {
+    text-align: center;
+    padding:10px;
+}
+
+#email {
+    text-align: center;
+    padding:10px;
+}
+
+#phone-number {
+    text-align: center;
+    padding:10px;
+}
+
+#message {
+    text-align: center;
+    padding:10px;
+}
+
+.button {
     color:white;
+    background-color: black;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: rgb(251, 255, 251);
+    color:black;
 }
 
 .footer {
@@ -45,10 +79,11 @@ h4 {
     bottom: 0;
     width: 100%;
     background-color: rgba(124, 228, 150, 0.427);
-    color: white;
-    text-align: right;
+    color:black;
+    text-align: center;
+    font-size: small;
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
 }

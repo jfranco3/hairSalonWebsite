@@ -16,11 +16,11 @@
 }
 
  img {
-    width: 380px;
+    width: 379px;
     height: 200px;
 }
 
-.row, .row2, .row3 {
+.country, .people, .why {
     border-style: solid;
     border-color: black;
 }
@@ -63,6 +63,10 @@ h4 {
     margin-top: 5%;
 }
 
+.pic, .pic2, .pic3{
+    border-style: solid;
+}
+
  h3, p {
     text-align: center;
  }
@@ -97,18 +101,18 @@ h4 {
 }
 
 
-/* /* medium devices */
-/* @media (min-width: 768px) {
+/* medium devices
+@media (min-width: 768px) {
     .container {
         display: grid;
         grid-template-areas: 
-        "header  header header"
-        "pic1 words"
-        "pic2 words2"
-        "pic3 words3" 
+        "header header header"
+        "why"
+        "country"
+        "people" 
         "footer footer footer"
     }
-}  */
+} 
 
 /* Large devices (laptops/desktops, 992px and up)  */
 /* @media (min-width: 992px) { 
