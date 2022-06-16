@@ -55,6 +55,8 @@ h1 {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 5%;
+    background-color: black;
+    color: white;
 }
 
 .words {
@@ -68,19 +70,18 @@ h1 {
     bottom: 0;
     width: 100%;
     background-color: rgba(124, 228, 150, 0.427);
-    color: white;
-    text-align: right;
+    color: black;
+    text-align: center;
+    font-size: small;
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
 }
 
- /* medium device 
-@media (min-width: 762px) {
+ /* medium device */
+/* @media (min-width: 762px) {
     .container {
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 1fr 1fr 1fr 1fr;
         display: grid;
         gap: 30px;
         grid-template-areas:
@@ -89,13 +90,10 @@ h1 {
         ". middle ."
         "footer footer footer";
     }
-    body {
-        color: white;
-    }
-} 
+}  */
 
- large device 
-@media (min-width: 992px) {
+ /* large device  */
+/* @media (min-width: 992px) {
     .container {
         display: grid;
         gap: 30px;
@@ -104,9 +102,5 @@ h1 {
         "main main main"
         ". middle ."
         "footer footer footer";
-    
     }
-    body {
-        background-color: white;
-    }
-}     */
+}      */

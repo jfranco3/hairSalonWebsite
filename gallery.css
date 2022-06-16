@@ -12,7 +12,7 @@ grid-template-areas:
 
 .grid-container {
     max-width:100%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     text-align: center;
 }
 
@@ -66,7 +66,7 @@ nav {
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
 }  
 
  @media (min-width: 576px) {
@@ -78,7 +78,6 @@ nav {
                 "pic1 pic2 pic3"
                 "pic4 pic5 pic6"
                 "pic7 pic8 pic9";
-                text-align:unset;
     } 
 }
 
@@ -86,7 +85,7 @@ nav {
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
         display: grid;
-        gap: 30px;
+        gap: 20px;
         grid-template-areas:
         "pic1 pic2 pic3"
         "pic4 pic5 pic6"
