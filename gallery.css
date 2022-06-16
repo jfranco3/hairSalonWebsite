@@ -19,6 +19,9 @@ grid-template-areas:
 .grid-container > div > img {
     max-width:100%;
     margin-top: 15px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
 }
 
 .header {
@@ -84,6 +87,17 @@ h2 {
                 "pic4 pic5 pic6"
                 "pic7 pic8 pic9";
     } 
+
+    .grid-container {
+        max-width:50%;
+        margin-bottom: 2%;
+        text-align: center;
+        margin: auto;
+    }
+
+    h2 {
+        width: 30%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -96,4 +110,16 @@ h2 {
         "pic4 pic5 pic6"
         "pic7 pic8 pic9";
     }
-} 
+
+    .grid-container {
+        max-width:50%;
+        margin-bottom: 2%;
+        text-align: center;
+        margin: auto;
+    }
+    
+    h2 {
+        width: 30%;
+    }
+}
+
