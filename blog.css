@@ -120,4 +120,12 @@ h2 {
         "community community-text"
         "footer footer footer"
     }
+
+    img {
+        width:200px;
+        height: 200px;
+        border: none;
+
+    }
 } 
+

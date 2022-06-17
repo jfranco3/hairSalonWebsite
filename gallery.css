@@ -17,10 +17,7 @@ grid-template-areas:
 }
 
  img {
-    max-width:100%;
     margin-top: 15px;
-    width: 200px;
-    height: 200px;
     border-style: solid;
     border-color:black;
 }
@@ -86,7 +83,7 @@ img:hover {
     text-align: center;
 }  
 
- @media (min-width: 576px) {
+ @media (min-width: 762px) {
             .grid-container {
                 display: grid;
                 gap: 30px;
@@ -106,6 +103,8 @@ img:hover {
     h2 {
         width: 30%;
     }
+
+    
 }
 
 @media (min-width: 992px) {
