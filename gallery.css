@@ -119,12 +119,10 @@ img:hover {
         "pic4 pic5 pic6"
         "pic7 pic8 pic9"
         "footer footer footer";
-    }
-
-    .grid-container {
         margin-bottom: 5%;
         max-width: 50%;
         margin-left: 18%;
+
     }
     
     h2 {
