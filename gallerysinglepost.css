@@ -33,7 +33,8 @@
 
 h2 {
     border-style: solid;
-    width: 70%;
+    padding: 1%;
+    width: 40%;
     text-align: center;
     color: white;
     background-color: black;
@@ -49,7 +50,8 @@ h2 {
 .main-pic {
  display: block;
  text-align: center;
- width: 75%;
+ width: 50%;
+ height: 50%;
  margin: 0 auto;
  border-style: solid;
 }
@@ -68,6 +70,7 @@ h2 {
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 5%;
 }
 
 .footer {
