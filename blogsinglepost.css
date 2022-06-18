@@ -43,7 +43,7 @@ p {
         "blogpic1 blogpic2";
     float:left;
     border-style: solid;
-    margin-left: 11%;
+    /* margin-left: 11%; */
 }
 
 .middle {
