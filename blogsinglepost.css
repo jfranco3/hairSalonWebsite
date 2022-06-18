@@ -70,12 +70,12 @@ p {
 }
 
 .copyright {
-    text-align: right;
+    text-align: center;
 }
 
 
 
-@media (min-width: 762px) {
+@media (min-width: 562px) {
 .row {
     margin-left: 33%;
 } 
@@ -95,6 +95,10 @@ p {
     }
 }
 
+
+
+
+
 @media (min-width: 960px){
 .row {
     margin-left: 35%;
@@ -102,7 +106,6 @@ p {
 }
 
 .middle {
-      
         width: 60%;
         text-align: center;
         color: black;
