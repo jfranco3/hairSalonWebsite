@@ -5,7 +5,6 @@
     "header"
     "main"
     "footer";
-
 }
 
 .header {
@@ -91,6 +90,7 @@ nav {
 }
 
 .footer {
+    grid-area: footer;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -118,20 +118,19 @@ nav {
         "main main"
         "footer footer";
 }
-/* add fullscreen rules here */
 
 .header {
-    margin: 35px 20px 40px;
+    grid-area: header;
 }
 
 .main {
 margin-bottom: 5%;
 }
-.blog {
+
+/* .blog {
     padding: 10px 28px 10px;
-    font-size: 22px;
     display: inline-block;
-}
+} */
 
 .main img {
     border: solid black;
@@ -159,10 +158,5 @@ margin-bottom: 5%;
         "column1 column2"
         "column1 column2"
         "column1 column2";  
-    }
-
-    .footer {
-        grid-area: footer;
-        
     }
 }
