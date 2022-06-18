@@ -75,28 +75,28 @@ h2 {
     text-align: center;
 }
 
- /* medium device */
-/* @media (min-width: 762px) {
-    .container {
-        display: grid;
-        gap: 30px;
-        grid-template-areas:
-        "header header header"
-        "main main main"
-        ". middle ."
-        "footer footer footer";
-    }
-}  */
 
- /* large device  */
-/* @media (min-width: 992px) {
+@media (min-width: 592px) {
     .container {
-        display: grid;
+        display:grid;
         gap: 30px;
-        grid-template-areas:
-        "header header header"
-        "main main main"
-        ". middle ."
-        "footer footer footer";
+        grid-template-areas: 
+        "header"
+        "main"
+        "middle"
+        "footer";
     }
-}      */
+}
+
+ 
+ @media (min-width: 992px) {
+    .container {
+        display:grid;
+        gap: 30px;
+        grid-template-areas: 
+        "header"
+        "main"
+        "middle"
+        "footer";
+    }
+}      

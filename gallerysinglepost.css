@@ -87,3 +87,27 @@ h2 {
 .copyright {
     text-align: center;
 }
+
+@media (min-width: 576px) {
+    .container {
+        display:grid;
+        gap: 30px;
+        grid-template-areas: 
+        "header"
+        "main"
+        "middle"
+        "footer";
+    }
+}
+
+@media (min-width: 976px) {
+    .container {
+        display:grid;
+        gap: 30px;
+        grid-template-areas: 
+        "header"
+        "main"
+        "middle"
+        "footer";
+    }
+}

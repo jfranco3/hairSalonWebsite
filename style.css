@@ -114,8 +114,9 @@ img:hover {
     text-align: center;
 }
 
-  /* /* medium device  */
- @media (min-width: 762px) {
+ 
+  @media(min-width: 576px) {
+ 
      .container {
          display: grid;
          gap:30px;

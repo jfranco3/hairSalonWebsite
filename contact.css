@@ -87,3 +87,11 @@ h2 {
 .copyright {
     text-align: center;
 }
+
+@media (min-width: 592px) {
+
+}
+
+@media (min-width: 976px) {
+    
+}
